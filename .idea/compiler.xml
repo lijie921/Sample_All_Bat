@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="SDK" />
+        <module name="SDKUIAuto-master" />
       </profile>
     </annotationProcessing>
   </component>

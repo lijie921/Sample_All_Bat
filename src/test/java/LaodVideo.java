@@ -17,7 +17,7 @@ public class LaodVideo
         DriverInit.driver.findElement(By.id("com.unit.sample_all:id/load1")).click();
         pb.screenShot(DriverInit.driver,DriverInit.phoneName,"Video主页点击load按钮");
         try {
-            Thread.sleep(20000);
+            Thread.sleep(100000);
             WebElement msg=pb.findElement(DriverInit.driver,"com.unit.sample_all:id/message1");
             WebElement show=pb.findElement(DriverInit.driver,"com.unit.sample_all:id/show1");
             assertTrue(show.isEnabled());
