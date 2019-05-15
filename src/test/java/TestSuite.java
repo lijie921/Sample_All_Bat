@@ -9,7 +9,7 @@ import org.junit.runners.Suite;
         LoadSmartBanner.class,
         LaodMedium.class,
         LaodInterstitial.class,
-        LaodVideo.class,
+        //LaodVideo.class,
         QuiteDriver.class
 })
 public class TestSuite
